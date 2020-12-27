@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main1()
 {
 	int a = 1, n, i = 1;
 	long long sum = 0;
