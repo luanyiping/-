@@ -1,5 +1,6 @@
+#define  CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-int main()
+int main5()
 {
 	int n, a[50];
 	scanf("%d", &n);
