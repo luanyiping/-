@@ -1,26 +1,25 @@
 #include<iostream>
 using namespace std;
-int main()
+int main2()
 {
-	int a[10] = { 0 };
-	int i = 0;
-	for (i = 0; i < 10; i++)
+	int i = 0, n, flag1 = 0, flag2 = 0;
+	int a[50];
+	cin >> n;
+	for (i = 0; i < n; i++)
 	{
 		cin >> a[i];
 	}
-	int left = 0, right = 9;
-	while (left < right)
+	for (i = 0; i < n - 1; i++)
 	{
-		int temp;
-		temp = a[left];
-		a[left] = a[right];
-		a[right] = temp;
-		left++;
-		right--;
+		if (a[i] >= a[i + 1])
+			flag1 = 1;
+		if (a[i] < a[i + 1])
+			flag2 = 1;
 	}
-	for (i = 0; i < 10; i++)
+	if (flag1 + flag2 == 1)
 	{
-		cout << a[i] << "\t";
+		cout << "sorted";
 	}
-
+	else
+		cout << "unsorted";
 }

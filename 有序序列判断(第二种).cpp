@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
+int main1()
 {
 	int i = 0, n, flag1 = 0, flag2 = 0;
 	int a[50];
