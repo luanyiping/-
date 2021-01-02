@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
+int main1()
 {
 	int n, i = 0, a[50];
 	scanf_s("%d", &n);
