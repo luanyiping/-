@@ -10,7 +10,7 @@ char *my_strcpy(char* dest, const char* src)
 	while (*dest++ = *src++);
 	return ret;
 }
-int main()
+int main3()
 {
 	char arr1[] = "abcdefghi";
 	char arr2[] = "bit";
