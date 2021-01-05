@@ -13,7 +13,7 @@ char* my_stract(char* dest, const char* src)
 	while (*dest++ = *src++);
 	return ret;
 }
-int main()
+int main3()
 {
 	char arr1[30] = "hello";
 	char arr2[] = "world";
