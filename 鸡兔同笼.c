@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
+	
 	int x,y,m,n;
-	printf("ÇëÊäÈëÍ·ºÍ½ÅµÄ¸öÊı:");
+	printf("è¯·è¾“å…¥å¤´å’Œè„šçš„ä¸ªæ•°:");
 	scanf("%d %d",&m,&n);
 	for(x=0;x<m;x++)
 	{
 		for(y=0;y<m;y++)
 		{
 			if(x+y==m&&2*x+4*y==n)
-			printf("¼¦ÓĞ%dÖ»,ÍÃ×ÓÓĞ%dÖ»",x,y);
+			printf("é¸¡æœ‰%dåª,å…”å­æœ‰%dåª",x,y);
 		}
 	}
 }
