@@ -4,6 +4,7 @@ int main()
 	
 	int x,y,m,n;
 	printf("请输入头和脚的个数:");
+	
 	scanf("%d %d",&m,&n);
 	for(x=0;x<m;x++)
 	{
