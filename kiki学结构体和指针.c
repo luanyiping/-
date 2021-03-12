@@ -2,12 +2,13 @@
 #include<stdlib.h>
 struct node
 {
+	
 	int data;
 	struct node* next;
 };
 int main()
 {
-	//插入结点
+	//鎻掑叆缁撶偣
 	int n = 0;
 	scanf("%d", &n);
 	int i = 0;
@@ -31,7 +32,7 @@ int main()
 			tail = tail->next;
 		}
 	}
-	//删除结点
+	//鍒犻櫎缁撶偣
 	int del = 0;
 	scanf("%d", &del);
 	struct node* cur = list;
@@ -61,7 +62,7 @@ int main()
 		}
 	}
 	printf("%d\n", n);
-	//释放空间
+	//閲婃斁绌洪棿
 	cur = list;
 	while (cur)
 	{
