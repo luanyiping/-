@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string>
 #define max 1000
-
 using namespace std;
 struct person
 {
